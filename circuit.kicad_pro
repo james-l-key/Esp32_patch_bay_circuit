@@ -550,7 +550,7 @@
       },
       {
         "netclass": "PWR_IN",
-        "pattern": "VIN_12V"
+        "pattern": "VIN_24V"
       },
       {
         "netclass": "3.3V",
@@ -558,27 +558,19 @@
       },
       {
         "netclass": "PWR_IN",
-        "pattern": "/Power/12V_RAW_1"
+        "pattern": "/Power/24V_RAW_1"
       },
       {
         "netclass": "PWR_IN",
-        "pattern": "/Power/12V_RAW_2"
+        "pattern": "/Power/24V_RAW_2"
       },
       {
         "netclass": "PWR_IN",
-        "pattern": "/Power/12V_to_3.3V"
-      },
-      {
-        "netclass": "3.3V",
-        "pattern": "/Power/3.3V_1"
+        "pattern": "/Power/24V_to_-5V"
       },
       {
         "netclass": "PWR_IN",
-        "pattern": "/Power/12V_to_-5V"
-      },
-      {
-        "netclass": "PWR_IN",
-        "pattern": "/Power/12V_to_5V"
+        "pattern": "/Power/24V_to_5V"
       },
       {
         "netclass": "AGND",

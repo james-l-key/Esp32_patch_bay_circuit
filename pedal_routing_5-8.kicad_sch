@@ -2758,7 +2758,7 @@
 		)
 		(uuid "1303470c-dc01-49e1-9ec0-6876bb032b90")
 	)
-	(label "U902_Q3"
+	(label "U901_Q7"
 		(at 31.75 139.7 0)
 		(effects
 			(font
@@ -2808,7 +2808,7 @@
 		)
 		(uuid "39a7ff18-7f0c-4c90-bc23-fd24a9ea0c63")
 	)
-	(label "U902_Q2"
+	(label "U901_Q6"
 		(at 185.42 50.8 0)
 		(effects
 			(font
@@ -2828,7 +2828,7 @@
 		)
 		(uuid "4c9113fe-43db-4bc3-94b9-43ce7381d573")
 	)
-	(label "U902_Q0"
+	(label "U901_Q4"
 		(at 38.1 50.8 0)
 		(effects
 			(font
@@ -2838,7 +2838,7 @@
 		)
 		(uuid "63173a12-af78-4905-8098-cbfedc1b6685")
 	)
-	(label "U902_Q[0..3]"
+	(label "U901_Q[0..7]"
 		(at 16.51 78.74 0)
 		(effects
 			(font
@@ -2908,7 +2908,7 @@
 		)
 		(uuid "ec31147a-65e1-4cc9-acd1-8a006f8574aa")
 	)
-	(label "U902_Q1"
+	(label "U901_Q5"
 		(at 107.95 50.8 0)
 		(effects
 			(font
@@ -3775,7 +3775,7 @@
 		)
 		(uuid "09dadf48-f716-4d34-8596-bc44308b0f8f")
 	)
-	(hierarchical_label "U902_Q[0..3]"
+	(hierarchical_label "U901_Q[0..7]"
 		(shape output)
 		(at 16.51 69.85 0)
 		(effects

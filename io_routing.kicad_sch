@@ -1525,6 +1525,12 @@
 		(uuid "2c6aa1ca-143a-4510-a029-5082def4d2a2")
 	)
 	(junction
+		(at 186.69 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ea0ef2c-5558-43ae-9359-e9624326dee2")
+	)
+	(junction
 		(at 154.94 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1559,15 +1565,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f353a7e3-4154-4b7c-8e0a-19dcb21e93d7")
-	)
-	(bus_entry
-		(at 147.32 69.85)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c20b0ea-57b8-46bb-9103-048528e9b3bf")
 	)
 	(bus_entry
 		(at 175.26 62.23)
@@ -1634,16 +1631,6 @@
 			(type default)
 		)
 		(uuid "10150810-35c6-4a6f-991c-a7149c9da088")
-	)
-	(wire
-		(pts
-			(xy 149.86 72.39) (xy 186.69 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "137c7357-f72e-48eb-92a8-490f397d1e76")
 	)
 	(wire
 		(pts
@@ -1765,16 +1752,6 @@
 		)
 		(uuid "61978484-7569-4b54-8dbc-a446b661f217")
 	)
-	(bus
-		(pts
-			(xy 147.32 49.53) (xy 147.32 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6602c185-5ac6-413f-8920-7f76bb3439bd")
-	)
 	(wire
 		(pts
 			(xy 196.85 95.25) (xy 196.85 90.17)
@@ -1834,6 +1811,16 @@
 			(type default)
 		)
 		(uuid "715ed66c-8d35-46d0-b0bb-07f20f526176")
+	)
+	(wire
+		(pts
+			(xy 186.69 72.39) (xy 186.69 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83d112ad-ff3b-4022-8da9-9fbdd07c13f7")
 	)
 	(bus
 		(pts
@@ -2084,16 +2071,6 @@
 			(justify left bottom)
 		)
 		(uuid "39ecd623-68ba-4fce-acd8-6eae21c14ae3")
-	)
-	(label "U901_Q0"
-		(at 177.8 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "66366c93-5d65-4a59-8f5a-6b5fa3d6621f")
 	)
 	(label "U701_Q2"
 		(at 179.07 62.23 0)
@@ -2474,17 +2451,6 @@
 				(hide yes)
 			)
 		)
-	)
-	(hierarchical_label "U901_Q[0..4]"
-		(shape output)
-		(at 147.32 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1afff524-f068-4bea-bbcb-87a5337f00d0")
 	)
 	(hierarchical_label "U701_Q[0..7]"
 		(shape output)

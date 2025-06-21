@@ -58,7 +58,28 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "annular_width|171300000|153500000|59288faf-e5c5-4691-9a59-0b8f4cb98cdc|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|173000000|153500000|bccfdace-3775-43de-96cf-fb28629cf26c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|174700000|153500000|d415ba80-93bd-4b8d-9d61-7ad2f66b7bfa|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|176400000|153500000|2118ac78-3a0a-4023-a9b0-ed6c93774788|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|178100000|153500000|702f2c62-b737-4d92-a25f-69ff26507f3d|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -760,11 +781,19 @@
     ],
     [
       "29d699ec-0c90-4221-aaaa-5e1847dd8909",
-      "LED Shift Registers"
+      "LED Controlers"
     ],
     [
       "3615cdd2-b3af-491e-a218-af99bd160bfe",
       "Inhibit Registers"
+    ],
+    [
+      "554055b7-bdfd-43c4-9911-0d1a25b31151",
+      "Adafruit PCA9685 1"
+    ],
+    [
+      "1cb11b97-c0fb-4bdf-a046-c7140ccec1ad",
+      "Adafruit PCA9686 2"
     ]
   ],
   "text_variables": {}

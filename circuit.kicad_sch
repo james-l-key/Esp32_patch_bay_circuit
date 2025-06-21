@@ -2752,6 +2752,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 246.38) (xy 170.18 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "203df66f-eb01-4c2f-8fd4-2226eae83899")
+	)
+	(wire
+		(pts
 			(xy 299.72 85.09) (xy 299.72 76.2)
 		)
 		(stroke
@@ -2799,6 +2809,16 @@
 			(type default)
 		)
 		(uuid "32ead027-63d4-4736-8eeb-036379326193")
+	)
+	(wire
+		(pts
+			(xy 162.56 246.38) (xy 162.56 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cc6aff9-180d-45a2-9401-a91f22ee4304")
 	)
 	(wire
 		(pts
@@ -3810,6 +3830,28 @@
 		)
 		(uuid "ffae3a37-07b7-473b-960f-fb9e5bb462f2")
 	)
+	(global_label "SCL"
+		(shape bidirectional)
+		(at 223.52 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "16ca0019-723f-48b3-951c-ecaf2dbf8838")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.1241 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED_SR_DS"
 		(shape output)
 		(at 180.34 121.92 0)
@@ -3845,6 +3887,28 @@
 		(uuid "4d6193c7-2733-44f5-8e38-6c18e3a6d664")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 210.2976 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape bidirectional)
+		(at 170.18 246.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53b03838-55d2-40da-8920-ad9c48958a5d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.7841 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4008,6 +4072,50 @@
 			)
 		)
 	)
+	(global_label "SDA"
+		(shape bidirectional)
+		(at 220.98 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b0731d54-0598-4668-ad52-cdfadf7059fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.3154 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape bidirectional)
+		(at 162.56 246.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b783206b-5665-406c-a830-9f92e8211c5b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.8954 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+5V"
 		(shape input)
 		(at 190.5 49.53 180)
@@ -4062,7 +4170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12ebf39e-7344-4f73-bf24-8491f3391cdf")
-		(property "Reference" "SW105"
+		(property "Reference" "SW103"
 			(at 304.8 68.58 0)
 			(effects
 				(font
@@ -4114,7 +4222,7 @@
 		(instances
 			(project "bay"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
-					(reference "SW105")
+					(reference "SW103")
 					(unit 1)
 				)
 			)
@@ -4197,7 +4305,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1aa3a20c-c391-4bb6-83e0-eef5d705bd97")
-		(property "Reference" "C109"
+		(property "Reference" "C105"
 			(at 330.1936 104.14 90)
 			(effects
 				(font
@@ -4249,7 +4357,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
-					(reference "C109")
+					(reference "C105")
 					(unit 1)
 				)
 			)
@@ -4264,7 +4372,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ba1a4bb-cd0e-4b32-a5c1-596dce91540c")
-		(property "Reference" "C104"
+		(property "Reference" "C107"
 			(at 292.0936 129.54 90)
 			(effects
 				(font
@@ -4316,7 +4424,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
-					(reference "C104")
+					(reference "C107")
 					(unit 1)
 				)
 			)
@@ -4472,7 +4580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2550ee2a-8f09-48b2-870d-610c384b8b30")
-		(property "Reference" "SW102"
+		(property "Reference" "SW106"
 			(at 279.4 106.68 0)
 			(effects
 				(font
@@ -4524,7 +4632,7 @@
 		(instances
 			(project "bay"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
-					(reference "SW102")
+					(reference "SW106")
 					(unit 1)
 				)
 			)
@@ -4539,7 +4647,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d41320c-ab98-44aa-a71e-f044858064b2")
-		(property "Reference" "SW109"
+		(property "Reference" "SW105"
 			(at 330.2 93.98 0)
 			(effects
 				(font
@@ -4591,7 +4699,7 @@
 		(instances
 			(project "bay"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
-					(reference "SW109")
+					(reference "SW105")
 					(unit 1)
 				)
 			)
@@ -4606,7 +4714,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3940c69c-c8eb-4faa-bb9a-42a379cf1838")
-		(property "Reference" "C102"
+		(property "Reference" "C106"
 			(at 279.3936 116.84 90)
 			(effects
 				(font
@@ -4658,7 +4766,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
-					(reference "C102")
+					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -4674,7 +4782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44b230a0-4f47-4717-801e-eabbb95d3013")
-		(property "Reference" "SW108"
+		(property "Reference" "SW109"
 			(at 317.5 144.78 0)
 			(effects
 				(font
@@ -4726,7 +4834,7 @@
 		(instances
 			(project "bay"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
-					(reference "SW108")
+					(reference "SW109")
 					(unit 1)
 				)
 			)
@@ -4741,7 +4849,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a3e4971-9efc-4ce9-b75a-a50965484a4b")
-		(property "Reference" "C105"
+		(property "Reference" "C103"
 			(at 304.7936 78.74 90)
 			(effects
 				(font
@@ -4793,7 +4901,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
-					(reference "C105")
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -4809,7 +4917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "522d0c92-84e8-4e92-b4a9-b1ebff861077")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0106"
 			(at 349.25 180.34 0)
 			(effects
 				(font
@@ -4859,7 +4967,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
-					(reference "#PWR0104")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -4946,7 +5054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55f3aedf-0100-4abb-ab91-dd167235bbe5")
-		(property "Reference" "SW103"
+		(property "Reference" "SW102"
 			(at 292.1 55.88 0)
 			(effects
 				(font
@@ -4998,7 +5106,7 @@
 		(instances
 			(project "bay"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
-					(reference "SW103")
+					(reference "SW102")
 					(unit 1)
 				)
 			)
@@ -5014,7 +5122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57c1bf77-beef-4e97-b5be-d296d0e48d81")
-		(property "Reference" "SW106"
+		(property "Reference" "SW108"
 			(at 304.8 132.08 0)
 			(effects
 				(font
@@ -5066,7 +5174,7 @@
 		(instances
 			(project "bay"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
-					(reference "SW106")
+					(reference "SW108")
 					(unit 1)
 				)
 			)
@@ -5082,7 +5190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "692aa09e-63f1-4bd4-a1f3-e0ab258b8f9b")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0101"
 			(at 375.92 44.45 0)
 			(effects
 				(font
@@ -5132,7 +5240,7 @@
 		(instances
 			(project ""
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
-					(reference "#PWR0105")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -5215,7 +5323,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8666df37-1946-41d7-b09c-1d610b5a4b3b")
-		(property "Reference" "C108"
+		(property "Reference" "C109"
 			(at 317.4936 154.94 90)
 			(effects
 				(font
@@ -5267,7 +5375,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
-					(reference "C108")
+					(reference "C109")
 					(unit 1)
 				)
 			)
@@ -5350,7 +5458,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ea81b73-1fdd-4776-a8ea-d92d2ee96033")
-		(property "Reference" "C106"
+		(property "Reference" "C108"
 			(at 304.7936 142.24 90)
 			(effects
 				(font
@@ -5402,7 +5510,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
-					(reference "C106")
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -5418,7 +5526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90e71d63-9480-461a-ae34-11a3af37b597")
-		(property "Reference" "SW107"
+		(property "Reference" "SW104"
 			(at 317.5 81.28 0)
 			(effects
 				(font
@@ -5470,7 +5578,7 @@
 		(instances
 			(project "bay"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
-					(reference "SW107")
+					(reference "SW104")
 					(unit 1)
 				)
 			)
@@ -5967,7 +6075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba0aac8a-c0f2-4712-a57b-e7df75179d2f")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0104"
 			(at 30.48 77.47 0)
 			(effects
 				(font
@@ -6017,7 +6125,7 @@
 		(instances
 			(project ""
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
-					(reference "#PWR0101")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -6099,7 +6207,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c4208715-e537-48ce-95e9-31cba681b4ca")
-		(property "Reference" "C107"
+		(property "Reference" "C104"
 			(at 317.4936 91.44 90)
 			(effects
 				(font
@@ -6151,7 +6259,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
-					(reference "C107")
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -6167,7 +6275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6427fc1-387d-4099-bfcc-a46563cb57f4")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0102"
 			(at 386.08 44.45 0)
 			(effects
 				(font
@@ -6217,7 +6325,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
-					(reference "#PWR0106")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -6299,7 +6407,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e306ad27-efe9-4fcc-99a1-8c9a9bf04678")
-		(property "Reference" "C103"
+		(property "Reference" "C102"
 			(at 292.0936 66.04 90)
 			(effects
 				(font
@@ -6351,7 +6459,7 @@
 		(instances
 			(project "circuit"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
-					(reference "C103")
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -6366,7 +6474,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5246f7d-ea2c-4394-9a4b-f621b1e6928f")
-		(property "Reference" "SW104"
+		(property "Reference" "SW107"
 			(at 292.1 119.38 0)
 			(effects
 				(font
@@ -6418,7 +6526,7 @@
 		(instances
 			(project "bay"
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
-					(reference "SW104")
+					(reference "SW107")
 					(unit 1)
 				)
 			)
@@ -6501,7 +6609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8170857-cea5-4203-b1e6-68c3ddac8732")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0105"
 			(at 154.94 161.29 0)
 			(effects
 				(font
@@ -6551,7 +6659,7 @@
 		(instances
 			(project ""
 				(path "/420e3d7a-6c9a-4806-b4be-05d56aeb21de"
-					(reference "#PWR0102")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -6573,7 +6681,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "29d699ec-0c90-4221-aaaa-5e1847dd8909")
-		(property "Sheetname" "LED Shift Registers"
+		(property "Sheetname" "LED Controlers"
 			(at 123.19 253.2884 0)
 			(effects
 				(font
@@ -6589,6 +6697,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 170.18 254 90)
+			(uuid "a2c9e89c-751a-4b43-b1b1-856076f16c21")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 162.56 254 90)
+			(uuid "b8be4fbe-c73f-4faf-9cf5-1fe39338839d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

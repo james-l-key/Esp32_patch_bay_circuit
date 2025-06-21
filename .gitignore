@@ -3,3 +3,48 @@
 *.zip
 *.lck
 \#auto_saved_files\#
+# KiCad Project Files
+*.kicad_prl                  # Project-local settings (local view/display settings)
+fp-info-cache                # Footprint information cache
+
+# Backup files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+*~
+*.lck
+
+# Auto-generated files
+*.net                        # Netlist files (often exported, but can be regenerated)
+*.dcm                        # Component cache file (generated from schematic)
+*.csv                        # Sometimes auto-generated, but if it's your BOM, keep it. Define if you generate it or keep it manually.
+*.log
+*.rpt
+
+# Autorouter files
+*.dsn
+*.ses
+
+# Output directories (Gerbers, Drill files, Pick and Place, etc.)
+# It's common to generate these and commit them as a release artifact,
+# but often the *directory* itself is ignored, and only specific output
+# files are added when a release is made.
+# If you always generate them locally and don't commit them, uncomment these:
+# gerbers/
+# drill/
+# bom/
+# output/
+# fab/
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db

@@ -25,35 +25,9 @@ The patch bay is built around the following key components:
 For a complete list of components, please see the **Bill of Materials (BOM)** in the `docs` folder or the `HARDWARE.md` file.
 
 ## Power Requirements
-<<<<<<< Updated upstream
-- **Input Power**: The system uses an external **12V DC power supply**.
-- **Isolated Dual Rails (±15V)**: A TMA-1215D DC/DC converter generates isolated **±15V** for the analog components.
-- **Regulated Rails**: Onboard linear regulators provide stable **+5V**, **-5V**, and **+3.3V** for the digital components and ESP32-S3.
-||||||| Stash base
 - **Input Power**: The system uses an external **24V DC power supply**.
-- **Isolated Dual Rails (±15V)**: 
+- **Isolated Dual Rails (±15V)**: Supplied by an LM7815 (+15V) and an inverting MC34063AP (-15V)
 - **Regulated Rails**: Onboard linear regulators provide stable **+5V**, **-5V**, and **+3.3V** is supplied by the ESP32-s3-Devkit-C for the digital components and ESP32-S3.
-=======
-<<<<<<< HEAD
-- **Input Power**: The system uses an external **24V DC power supply**.
-- **Isolated Dual Rails (±15V)**: 
-- **Regulated Rails**: Onboard linear regulators provide stable **+5V**, **-5V**, and **+3.3V** is supplied by the ESP32-s3-Devkit-C for the digital components and ESP32-S3.
->>>>>>> Stashed changes
-
-## License
-<<<<<<< Updated upstream
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-||||||| Stash base
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-=======
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-||||||| 1ede76b
-=======
-- **Input Power**: The system uses an external **12V DC power supply**.
-- **Isolated Dual Rails (±15V)**: A TMA-1215D DC/DC converter generates isolated **±15V** for the analog components.
-- **Regulated Rails**: Onboard linear regulators provide stable **+5V**, **-5V**, and **+3.3V** for the digital components and ESP32-S3.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
->>>>>>> main
->>>>>>> Stashed changes

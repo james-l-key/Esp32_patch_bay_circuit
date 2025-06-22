@@ -6863,7 +6863,7 @@
 	)
 	(sheet
 		(at 416.56 217.17)
-		(size 87.63 34.29)
+		(size 87.63 83.82)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6874,7 +6874,7 @@
 			(type solid)
 		)
 		(fill
-			(color 177 0 9 0.5000)
+			(color 0 0 0 0.0000)
 		)
 		(uuid "52ecec71-1c0e-4647-a50f-721f168ee7e0")
 		(property "Sheetname" "Power"
@@ -6887,7 +6887,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 416.56 252.0446 0)
+			(at 416.56 301.5746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6916,7 +6916,7 @@
 			(type solid)
 		)
 		(fill
-			(color 25 155 0 0.5000)
+			(color 0 0 0 0.0000)
 		)
 		(uuid "91f6596b-9a37-4517-8aab-00555625375a")
 		(property "Sheetname" "Buffers"
